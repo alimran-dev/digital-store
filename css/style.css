@@ -60,3 +60,30 @@
     box-shadow: 4px 4px 4px #3d3c3c;
     cursor: pointer;
 }
+.about-head{
+    text-align: center;
+    margin: 5px;
+}
+.common-hr{
+    border-top: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+.about{
+    display: flex;
+    height: 60vh;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
+.about-img{
+    width: 110px;
+}
+.title2{
+    font-size: 14px;
+    font-weight: bold;
+}
+.contact-btn{
+    font-size: 6px;
+}
