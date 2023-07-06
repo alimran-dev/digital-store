@@ -87,3 +87,54 @@
 .contact-btn{
     font-size: 6px;
 }
+
+.services-div{
+    height: 100vh;
+    background-image: url(../images/background.png),linear-gradient(45deg,#000,#000);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services-head{
+    padding: 10px;
+    color: white;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.services-card{
+    background-color: #000000;
+    height: 120px;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 25px rgba(148, 148, 148, 0.856);
+}
+.services-icon{
+    width: 30px;
+}
+.services-name{
+    color: white;
+    font-size: 15px;
+}
+.services-details{
+    color: white;
+    font-size: 8px;
+    
+
+}
+.details-btn{
+    background-color: #292929;
+    font-size: 8px;
+    color: white;
+    border: 0;
+    padding: 3px;
+    border-radius: 2px;
+}
+.details-btn:hover{
+    box-shadow: 1px 1px 8px #929292;
+    cursor: pointer;
+}
