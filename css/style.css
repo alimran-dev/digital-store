@@ -93,7 +93,7 @@
 
 .services-div{
     height: 90vh;
-    background-image: url(../images/background.png),linear-gradient(45deg,#000,#000);
+    background-image: url(../images/background.png),linear-gradient(45deg,#080808ee,#0f0f0fdc);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +115,7 @@
     text-align: center;
     padding: 20px;
     border-radius: 7px;
-    box-shadow: 2px 2px 50px rgba(133, 133, 133, 0.767);
+    box-shadow: 2px 2px 30px rgba(133, 133, 133, 0.767);
 }
 .services-icon{
     width: 70px;
@@ -141,4 +141,35 @@
 .details-btn:hover{
     box-shadow: 1px 1px 8px #929292;
     cursor: pointer;
+}
+.contact{
+    background-color: #000;
+    color: white;
+    height: 60vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-logo{
+    width: 170px;
+}
+.contact-header{
+    font-size: 25px;
+    font-weight: 300;
+    padding: 15px 0;
+    padding-bottom: 30px;
+}
+.links{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.contact-description{
+    padding: 0px 0;
 }
