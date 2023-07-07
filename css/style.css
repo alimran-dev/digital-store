@@ -4,24 +4,25 @@
 }
 .header-container{
     background-color: #0c0c0ccb;
-    padding: 10px 10px 0px 0px;
+    padding: 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-content: center;
 }
 .logo-photo{
-    width: 100px;
-    margin-right: 170px;
+    width: 180px;
+    margin-right: 300px;
 }
 .menus{
     display: flex;
-    margin-left: 20px;
+    margin-left: 50px;
+    align-items: center;
 }
 .item{
     color: white;
     list-style: none;
-    margin-left: 10px;
-    font-size: 12px;
+    margin-left: 15px;
+    font-size: 20px;
 }
 .banner{
     background-image: url("../images/background.png"),linear-gradient(45deg,#000000,#000000e8);
@@ -35,34 +36,35 @@
     padding: 20px;
 }
 .banner-image{
-    width: 110px;
+    width: 250px;
 }
 .banner-info{
     color: white;
 }
 .title{
-    font-size: 25px;
+    font-size: 55px;
     font-weight: bold;
 }
 .description{
-    font-size: 8px;
-    padding: 10px 0;
+    font-size: 18px;
+    padding: 20px 0;
 }
 .btn{
     background-color: rgb(255, 50, 14);
-    font-size: 10px;
+    font-size: 18px;
     border: 0;
-    border-radius: 2px;
-    padding: 5px;
+    border-radius: 4px;
+    padding: 10px;
     color: white;
 }
 .btn:hover{
-    box-shadow: 4px 4px 4px #3d3c3c;
+    box-shadow: 4px 4px 8px #3d3c3c;
     cursor: pointer;
 }
 .about-head{
+    font-size: 50px;
     text-align: center;
-    margin: 5px;
+    margin: 10px;
 }
 .common-hr{
     border-top: 1px solid black;
@@ -71,68 +73,70 @@
 }
 .about{
     display: flex;
-    height: 60vh;
+    height: 70vh;
     justify-content: space-around;
     align-items: center;
     margin: 10px;
     padding: 5px;
 }
 .about-img{
-    width: 110px;
+    width: 200px;
 }
 .title2{
-    font-size: 14px;
+    font-size: 40px;
     font-weight: bold;
 }
 .contact-btn{
-    font-size: 6px;
+    font-size: 18px;
+    padding: 10px;
 }
 
 .services-div{
-    height: 100vh;
+    height: 90vh;
     background-image: url(../images/background.png),linear-gradient(45deg,#000,#000);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .services-head{
-    padding: 10px;
+    padding: 20px;
     color: white;
 }
 .services{
+    height: 70%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .services-card{
     background-color: #000000;
-    height: 120px;
-    width: 80px;
+    height: 280px;
+    width: 200px;
     text-align: center;
     padding: 20px;
     border-radius: 7px;
-    box-shadow: 2px 2px 25px rgba(148, 148, 148, 0.856);
+    box-shadow: 2px 2px 50px rgba(133, 133, 133, 0.767);
 }
 .services-icon{
-    width: 30px;
+    width: 70px;
 }
 .services-name{
     color: white;
-    font-size: 15px;
+    font-size: 25px;
 }
 .services-details{
     color: white;
-    font-size: 8px;
-    
-
+    font-size: 16px;
+    padding: 8px;
 }
 .details-btn{
     background-color: #292929;
-    font-size: 8px;
+    font-size: 15px;
     color: white;
     border: 0;
-    padding: 3px;
-    border-radius: 2px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
 }
 .details-btn:hover{
     box-shadow: 1px 1px 8px #929292;
